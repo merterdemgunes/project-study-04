@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stroke_background"
+    tools:context=".SimilarActivity">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack7"
+        android:layout_width="62dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_custom"
+        android:drawableLeft="@drawable/ic_back"
+        android:paddingLeft="18dp"
+        app:backgroundTint="#F48BAF"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="92dp"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="0/6"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="28dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar4"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar1"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar5"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar2"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar3"
+        app:layout_constraintVertical_bias="0.068"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar3"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar4"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar5"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar6"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar2"
+        app:layout_constraintVertical_bias="0.14"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar7"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar"
+        app:layout_constraintVertical_bias="0.14"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar8"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar1"
+        app:layout_constraintVertical_bias="0.143"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar9"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar6"
+        app:layout_constraintVertical_bias="0.319"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar10"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar8"
+        app:layout_constraintVertical_bias="0.319"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSimilar11"
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSimilar7"
+        app:layout_constraintVertical_bias="0.319"
+        app:srcCompat="@drawable/atcardmain"
+        app:strokeColor="#F48BAF"
+        app:strokeWidth="10dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
